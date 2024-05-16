@@ -1,0 +1,4 @@
+PATH=$PATH:/usr/openv/netbackup/bin:/usr/openv/netbackup/bin/admincmd:/usr/openv/volmgr/bin:/usr/openv/pdde/vpfs/bin:/usr/openv/pdde/shell/bin
+export PATH
+MANPATH=$MANPATH:/usr/openv/man
+export MANPATH
