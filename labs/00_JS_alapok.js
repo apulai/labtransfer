@@ -105,6 +105,14 @@ ember2.lastName = "Trump";
 
 console.log(ember2);
 
+// Nem konstruktor függvénnyel létrehozott objektumok listája
+// Ez a fontos: 
+// JavaScript Object
+// JavaScript Object Notification format amit itt látunk
+l3=[ember1,ember2];
+console.log(l3);
+
+
 // Objektumok: új objektum constructor függvényből
 console.log("--- új objektum constructor függvényből ---");
 
@@ -140,6 +148,7 @@ for(p of l)
 console.log("- Ha van neve irjuk ki -")
 for(p of l)
   { 
+    // Itt van a vizsgálat ha van neve
     if('name' in p)
       {
         console.log(p.name,p.age);
