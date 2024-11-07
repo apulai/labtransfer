@@ -49,6 +49,9 @@ else
     console.log(' b===2 nem igaz!! Tipus ellenőrzés is volt ')
 }
 
+Console.log(1+"1")
+Console.log(1-"1")
+
 // LISTÁK
 
 console.log("-- Lista definició ---");
