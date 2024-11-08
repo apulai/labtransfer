@@ -52,6 +52,10 @@ else
 console.log(1+"1");
 console.log(1-"1");
 
+console.log(014-013);
+console.log(015-012);
+console.log(018-017); // Az egyik DEC a MÁSIK OCT!
+
 // LISTÁK
 
 console.log("-- Lista definició ---");
@@ -136,6 +140,13 @@ console.log("Pulus:",apulus)
 console.log("-----")
 l=[adori,attila,apulus,ajani];
 console.log(l);
+// Sokkal szebben írja ki
+console.log(JSON.stringify(l,null,2));
+//
+console.dir(l, {depth: null});
+
+// Ez a legjobb: Kokrétan táblázatot rajzol
+console.table(l)
 
 console.log("-----")
 console.log(JSON.stringify(l));
